@@ -1,14 +1,14 @@
 ### Hello, in this site you can get and add flights.
 \
     There are two interfaces:\
-\
-    1) User interface:\
+
+### 1) User interface:
         * get: /view/flights/{id}\
         * create: /view/flights/create\
 \
     In create insert csv string, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275\
-\
-    2) Rest interface:\
+
+### 2) Rest interface:\
         * get: /flights/{id} \
         * create by json: /flights \
         * create by csv string: /flights/string\
