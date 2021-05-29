@@ -1,5 +1,7 @@
 ### Hello, in this site you can get and add flights.
-\
+
+Heroku starts server ~ 30 seconds: https://flightgetter.herokuapp.com/
+
     There are two interfaces:\
 
 ### 1) User interface:
