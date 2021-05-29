@@ -9,23 +9,23 @@ Hello, in this site you can get and add flights. \
     In create insert csv string, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275\
 \
     2) Rest interface:\
-        * get: /flights/{id}
-        * create by json: /flights
-        * create by csv string: /flights/string
-
-    Json example:
-        {
-            "id": 20,
-            "origin": "SVO",
-            "destination": "BKK",
-            "departureDate": 20210701,
-            "departureTime": 2010,
-            "arrivalDate" : 20210702,
-            "arrivalTime" : 1115,
-            "number": "SU-276"
-        }
-
-    csv string with JSON example:
-        "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"
-
-    Note: to create new flight id should be new, not autoGen, because we have init data.
+        * get: /flights/{id} \
+        * create by json: /flights \
+        * create by csv string: /flights/string\
+\
+    Json example:\
+        {\
+            "id": 20,\
+            "origin": "SVO",\
+            "destination": "BKK",\
+            "departureDate": 20210701,\
+            "departureTime": 2010,\
+            "arrivalDate" : 20210702,\
+            "arrivalTime" : 1115, \
+            "number": "SU-276"\
+        }\
+\
+    csv string with JSON example:\
+        "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"\
+\
+    Note: to create new flight id should be new, not autoGen, because we have init data.\
