@@ -1,4 +1,4 @@
-Hello, in this site you can get and add flights. \
+###Hello, in this site you can get and add flights.
 \
     There are two interfaces:\
 \
@@ -12,8 +12,7 @@ Hello, in this site you can get and add flights. \
         * get: /flights/{id} \
         * create by json: /flights \
         * create by csv string: /flights/string\
-\
-    Json example:\
+###Json example:
         {\
             "id": 20,\
             "origin": "SVO",\
@@ -28,4 +27,4 @@ Hello, in this site you can get and add flights. \
     csv string with JSON example:\
         "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"\
 \
-    Note: to create new flight id should be new, not autoGen, because we have init data.\
+###Note: to create new flight id should be new, not autoGen, because we have init data.
