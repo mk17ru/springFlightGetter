@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Flight</title>
+</head>
+<body>
+    <form th:method="POST" th:action="@{/view/flight/create}" th:object="${request}">
+        <input type="hidden" name="action" value="save"/>
+        <div class="field">
+            <div class="name">
+                <label for="text">Write csv string here:</label>
+            </div>
+            <div class="value">
+                <input id="text" type="text" th:field="*{text}"/>
+            </div>
+        </div>
+        <div class="button-field">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+</html>
