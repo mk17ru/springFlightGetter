@@ -2,6 +2,8 @@
 
 Heroku starts server ~ 30 seconds: https://flightgetter.herokuapp.com/
 
+Start page you can find guide: https://flightgetter.herokuapp.com/
+
     There are two interfaces:\
 
 ### 1) User interface:
