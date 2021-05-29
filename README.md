@@ -42,3 +42,4 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
      In file application.properties you should set your password and username. Default username and password are postgres, postgres.
      and you need to create database with name flight_db
      run DemoApplication class
+     http://localhost:8080/
