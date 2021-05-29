@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight</title>
+</head>
+<body>
+    <h2 style="color: blue">Flight:</h2>
+    <p th:text="${'Name: ' + flight.name}" style="color: red" ></p>
+    <p th:text="${'DepartureTime: ' + flight.departureTime}" style="color: red"></p>
+    <p th:text="${'ArrivalTime: ' + flight.arrivalTime}" style="color: red"></p>
+    <p th:text="${'Number: ' + flight.number}" style="color: red" ></p>
+
+</body>
+</html>

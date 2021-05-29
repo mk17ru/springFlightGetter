@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+</head>
+<body>
+    <p th:unless="${errorId}"> Something went wrong! </p>
+    <p th:if="${errorId}"> Id exists: <span th:text="${errorId}"></span></p>
+
+</body>
+</html>
