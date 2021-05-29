@@ -5,7 +5,7 @@
     <title>Create Flight</title>
 </head>
 <body>
-    <form th:method="POST" th:action="@{/view/flight/create}" th:object="${request}">
+    <form th:method="POST" th:action="@{/view/flights}" th:object="${request}">
         <input type="hidden" name="action" value="save"/>
         <div class="field">
             <div class="name">

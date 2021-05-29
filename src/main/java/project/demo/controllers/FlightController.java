@@ -27,7 +27,7 @@ public class FlightController {
         return "FlightPage";
     }
 
-    @GetMapping("/flight/create")
+    @GetMapping("/flights/create")
     public String createFlight(Model model) {
         model.addAttribute("request", new CSVForm());
         return "CreateFlight";
@@ -38,7 +38,7 @@ public class FlightController {
      * @param stringFlight CSV format: Id,Origin,Destination,DepartureDate,DepartureTime,ArrivalDate,ArrivalTime,Number
      * @return Flight if success save or null (if flight has already existed or data was uncorrected
      */
-    @PostMapping("/flight/create")
+    @PostMapping("/flights")
     public String saveFlight(@ModelAttribute("request") CSVForm stringFlight, Model model) {
         Flight flight = Utils.parseFlightData(stringFlight.getText().replace("\"", ""));
         if (flight == null) {

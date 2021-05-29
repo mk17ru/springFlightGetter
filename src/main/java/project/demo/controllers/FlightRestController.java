@@ -34,7 +34,7 @@ public class FlightRestController {
      * @param flightForm Json: Id,Origin,Destination,DepartureDate,DepartureTime,ArrivalDate,ArrivalTime,Number
      * @return Flight if success save or null (if flight has already existed or data was uncorrected
      */
-    @PostMapping("/flight")
+    @PostMapping("/flights")
     public FlightOutForm saveFlight(@RequestBody FlightInForm flightForm) {
         if (flightForm == null) {
             return null;
@@ -52,7 +52,7 @@ public class FlightRestController {
      * @param stringFlight CSV format: Id,Origin,Destination,DepartureDate,DepartureTime,ArrivalDate,ArrivalTime,Number
      * @return Flight if success save or null (if flight has already existed or data was uncorrected
      */
-    @PostMapping("/flight/string")
+    @PostMapping("/flights/string")
     public Flight saveFlight(@RequestBody String stringFlight) {
         Flight flight = Utils.parseFlightData(stringFlight.replace("\"", ""));
         if (flight == null) {
