@@ -38,7 +38,7 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
 
 ### If you want to run app on your pc: 
      git clone https://github.com/mk17ru/springFlightGetter.git
-     you need to install postgresql
-     in file application.properties you should set your password and username. Default username and password are postgres, postgres.
+     you need to install postgresql port : 5432
+     In file application.properties you should set your password and username. Default username and password are postgres, postgres.
      and you need to create database with name flight_db
      run DemoApplication class
