@@ -37,5 +37,5 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
 
 
 ### If you want to run app on your pc: 
-     git clone 
+     git clone https://github.com/mk17ru/springFlightGetter.git
      run DemoApplication class
