@@ -36,6 +36,6 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
 ### Note: to create new flight id should be new, not autoGen, because we have init data.
 
 
-### If you want to run app on your pc: \
-     git clone \
+### If you want to run app on your pc: 
+     git clone 
      run DemoApplication class
