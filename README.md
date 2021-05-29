@@ -24,7 +24,9 @@
             "number": "SU-276"
         }
 \
-    csv string with JSON example:\
-        "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"\
+### Csv string with JSON example:
+    {
+        "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"
+    }
 \
 ### Note: to create new flight id should be new, not autoGen, because we have init data.
