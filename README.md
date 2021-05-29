@@ -13,16 +13,16 @@
         * create by json: /flights \
         * create by csv string: /flights/string\
 ### Json example:
-        {\
-            "id": 20,\
-            "origin": "SVO",\
-            "destination": "BKK",\
-            "departureDate": 20210701,\
-            "departureTime": 2010,\
-            "arrivalDate" : 20210702,\
-            "arrivalTime" : 1115, \
-            "number": "SU-276"\
-        }\
+        {
+            "id": 20,
+            "origin": "SVO",
+            "destination": "BKK",
+            "departureDate": 20210701,
+            "departureTime": 2010,
+            "arrivalDate" : 20210702,
+            "arrivalTime" : 1115, 
+            "number": "SU-276"
+        }
 \
     csv string with JSON example:\
         "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"\
