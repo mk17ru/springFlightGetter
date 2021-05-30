@@ -10,7 +10,7 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
         get: /view/flights/{id}
         create: /view/flights/create
 
-    In create insert csv string, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275\
+    In create insert csv string, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275
 
 ### 2) Rest interface:
         get: /flights/{id} 
