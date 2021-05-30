@@ -10,7 +10,7 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
         get: /view/flights/{id}
         create: /view/flights/create
 
-    In create insert csv string, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275
+    In block of creating with csv string, insert this, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275
 
 ### 2) Rest interface:
         get: /flights/{id} 
@@ -27,6 +27,9 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
             "arrivalTime" : 1115, 
             "number": "SU-276"
         }
+       ![image](https://user-images.githubusercontent.com/57333967/120098588-31ae8f00-c150-11eb-8b14-1ea0e893bb45.png)
+
+
 \
 ### Csv string with JSON example:
     {
