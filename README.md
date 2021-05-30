@@ -27,8 +27,8 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
             "arrivalTime" : 1115, 
             "number": "SU-276"
         }
-       ![image](https://user-images.githubusercontent.com/57333967/120098588-31ae8f00-c150-11eb-8b14-1ea0e893bb45.png)
-
+\
+![image](https://user-images.githubusercontent.com/57333967/120098599-4be86d00-c150-11eb-9957-1680cbff17dd.png)
 
 \
 ### Csv string with JSON example:
