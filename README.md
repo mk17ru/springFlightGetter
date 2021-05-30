@@ -1,4 +1,4 @@
-### Hello, in this site you can get and add flights.
+### This the app where you can get and add flights.
 
 This app is deplyed by heroku. Heroku free starts server ~ 30 seconds, pls wait for the first time: https://flightgetter.herokuapp.com/
 
