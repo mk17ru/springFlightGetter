@@ -32,7 +32,7 @@ Start page you can find guide: https://flightgetter.herokuapp.com/
     {
         "13,SVO,BKK,20210701,2010,20210702,1115,SU-275"
     }
-\
+
 ### Note: to create new flight id should be new, not autoGen, because we have init data.
 
 
