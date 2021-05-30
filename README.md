@@ -4,12 +4,12 @@ This app is deplyed by heroku. Heroku free starts server ~ 30 seconds, pls wait 
 
 Start page you can find guide: https://flightgetter.herokuapp.com/
 
-    There are two interfaces:\
+    There are two interfaces:
 
 ### 1) User interface:
         get: /view/flights/{id}
         create: /view/flights/create
-\
+
     In create insert csv string, for example: 100,SVO,BKK,20210701,2010,20210702,1115,SU-275\
 
 ### 2) Rest interface:
